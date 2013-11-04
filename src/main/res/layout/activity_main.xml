@@ -71,7 +71,7 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Exit"
+        android:text="Stop notification and close"
         android:id="@+id/button"
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/textView3" />
@@ -83,6 +83,7 @@
         android:text="Haven't received updates yet."
         android:id="@+id/textViewTime"
         android:layout_below="@+id/textView3"
-        android:layout_alignLeft="@+id/textView3" />
+        android:layout_alignLeft="@+id/textView3"
+        android:visibility="invisible" />
 
 </RelativeLayout>

@@ -15,7 +15,7 @@ public class BatteryBroadcastReceiver extends BroadcastReceiver {
     private BatteryBroadcastCallback callback;
 
     public BatteryBroadcastReceiver() {
-
+        // nothing
     }
 
     public interface BatteryBroadcastCallback {
